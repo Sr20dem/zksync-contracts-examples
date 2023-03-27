@@ -1,0 +1,23 @@
+{
+  "name": "zksync-contracts-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Sr20dem/zksync-contracts-examples.git",
+  "author": "Sr20dem <cryptoexch@yahoo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@ethersproject/hash": "^5.7.0",
+    "@ethersproject/web": "^5.7.1",
+    "@matterlabs/hardhat-zksync-deploy": "^0.6.3",
+    "@matterlabs/hardhat-zksync-solc": "^0.3.14",
+    "@types/node": "^18.15.9",
+    "ethers": "5.7.2",
+    "hardhat": "^2.13.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2",
+    "zksync-web3": "^0.14.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2"
+  }
+}

@@ -125,3 +125,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+#After compile directories
+artifacts-zk/
+cache-zk/
+/Token.sol
