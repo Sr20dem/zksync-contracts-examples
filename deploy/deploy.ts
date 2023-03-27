@@ -5,14 +5,14 @@ import { Deployer } from "@matterlabs/hardhat-zksync-deploy";
 
 // An example of a deploy script that will deploy and call a simple contract.
 export default async function (hre: HardhatRuntimeEnvironment) {
-  console.log(`Running deploy script for the MyToken contract`);
+  console.log(`Running deploy script for the MyZkSincToken token contract`);
 
   // Initialize the wallet.
   const wallet = new Wallet("<WALLET-PRIVATE-KEY>");
 
   // Create deployer object and load the artifact of the contract we want to deploy.
   const deployer = new Deployer(hre, wallet);
-  const artifact = await deployer.loadArtifact("ERC20Token");
+  const artifact = await deployer.loadArtifact("MyZkSincToken");
   
 /*
   // Deposit some funds to L2 in order to be able to perform L2 transactions.

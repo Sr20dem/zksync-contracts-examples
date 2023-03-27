@@ -129,4 +129,3 @@ dist
 #After compile directories
 artifacts-zk/
 cache-zk/
-/Token.sol
