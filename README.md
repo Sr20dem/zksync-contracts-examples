@@ -1,4 +1,6 @@
 # zksync-contracts-examples
  ERC-20 contract for zkSync
 
- Coming soon
+ Read instructions:
+ - English https://link.medium.com/y1d4shlQwyb
+ - Russian https://link.medium.com/IxDTyXoQwyb
